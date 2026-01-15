@@ -100,6 +100,44 @@ This tutorial outlines the steps of how to use Remote Desktop to connect to azur
 </p>
 
 
+- Create Linux Virtual Machine (Basics Tab)
+    - Now, repeat the process to create a second VM, this time for Linux.
+    -  Name it Linux-VM, select the same Resource Group, and choose an image such as Ubuntu Server 22.04.
+    -  Set the username and password fields, using the same credentials as the Windows VM to make it easier to log in later.
+    -   Make sure to keep the region the same as your first VM (East US 2), otherwise you may run into issues attaching it to the same network
+
+  <p align="center">
+  <<img width="975" height="610" alt="image" src="https://github.com/user-attachments/assets/39238aa7-545f-4a84-b9d2-064c6d6afb6f" />
+</p>
+
+
+- Create Linux Virtual Machine (Networking Tab)
+    - On the Linux VM networking page, don’t create a new network.
+    - Instead, select the previously created windows-VNet and the default subnet.
+    - If the option doesn’t appear right away, refresh the page and try again — this sometimes happens due to portal delays.
+    - Once selected, click Review + Create to finalize the VM
+
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/25db575a-5e5d-4d8d-9e22-a858aca043a9"
+       alt="image"
+       width="700" />
+</p>
+
+
+-  Resource Group Overview
+    - Once both VMs are deployed, go to your Resource Group overview page. You’ll see that several items have been created automatically:
+    -  Both VMs (Windows-VM and Linux-VM)
+    -  	A Virtual Network (Lab2-VNet)
+    -  	Public IP addresses
+    -  	A Network Security Group
+    -  	Disks and network interfaces
+This overview page helps confirm that all your resources are tied together correctly under the same Resource Group
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/25db575a-5e5d-4d8d-9e22-a858aca043a9"
+       alt="image"
+       width="700" />
+</p>
 
 
 
@@ -107,7 +145,7 @@ This tutorial outlines the steps of how to use Remote Desktop to connect to azur
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
