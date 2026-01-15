@@ -56,13 +56,57 @@ This tutorial outlines the steps of how to use Remote Desktop to connect to azur
   -  Give the VM a name like Windows-VM and choose Windows 10 Pro as the image. Make sure you scroll down to confirm the licensing checkbox — this is often forgotten.
   -  For authentication, create a username (for example, labuser) and a password you will remember . Note these down since you’ll need them later. 
 </p>
-<br />
+
 
 <p>
-<img width="975" height="712" alt="image" src="https://github.com/user-attachments/assets/1b5fb206-f4c5-4516-8608-667efb0404e1" />
->
+  <img width="750" height="472" alt="image" src="https://github.com/user-attachments/assets/1b5fb206-f4c5-4516-8608-667efb0404e1" />
 </p>
+
 <p>
+  <img width="750" height="472" alt="image" src="https://github.com/user-attachments/assets/275b0626-8fb2-40e8-a8b5-4dde2b2b60cd" />
+</p>
+
+<p>
+  <img width="750" height="472" alt="image" src="https://github.com/user-attachments/assets/40a91d78-8a82-4972-a352-97b742a9dafa" />
+</p>
+
+
+- Create Windows Virtual Machine (Networking Tab)
+    - On the networking page of the Windows VM creation process, Azure will automatically create a virtual network for you.
+    - Instead of using the default, click Create new and name it something like windows-VNet.
+    - Keep the rest of the settings as default for now.
+    - This will ensure that your Windows VM is connected to its own dedicated network
+ 
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/4faec529-175e-4856-b903-32fc96be013e" alt="image" width="900" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/dc053dd9-02c5-44fd-9b78-e9314a6f345a" alt="image" width="900" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/addf4431-6488-458b-bacc-0731868fcf87" alt="image" width="900" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4e621ced-a3cc-463f-a34b-fe6dc4a11df5" alt="image" width="900" />
+</p>
+
+
+
+
+
+
+
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
