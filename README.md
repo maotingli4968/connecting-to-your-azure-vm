@@ -35,6 +35,15 @@ This tutorial outlines the steps of how to use Remote Desktop to connect to azur
 
 <h2>Installation Steps</h2>
 
+
+- Create Resource Group
+  - Log in to the Azure Portal.
+  - Create a new Resource Group (e.g., `RG-Network-Activities`).
+  - Select the correct region (e.g., Canada Central).
+  - Click Review + Create, then Create.
+  - This Resource Group will hold all resources built in this lab.
+
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
