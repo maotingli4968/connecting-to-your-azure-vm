@@ -1,24 +1,24 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://www.devopsschool.com/blog/wp-content/uploads/2021/10/microsoft-azure-virtual-machines.jpg"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+<h1>Remote Desktop – Connecting to Your Azure Virtual Machine</h1>
+This tutorial outlines the steps of how to use Remote Desktop to connect to azure virtual machine.<br />
 
 
-<h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Microsoft Azure (Virtual Machines)
+- Remote Desktop Protocol (RDP)
+- Windows 11
+- Ubuntu Linux Server (22.04 LTS)
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11 (Host Machine & Remote VM)
+- Ubuntu Linux 
 
 <h2>List of Prerequisites</h2>
 
