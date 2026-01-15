@@ -22,11 +22,16 @@ This tutorial outlines the steps of how to use Remote Desktop to connect to azur
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Active Azure subscription:
+  see a step-by-guide on how to create a free azure subscription: https://www.geeksforgeeks.org/devops/how-to-create-a-free-azure-account/
+- A Resource Group containing:
+  1. One Windows 11 Virtual Machine (VM)
+  2. One Linux (Ubuntu) Virtual Machine
+  3. A Virtual Network (VNet) with a Subnet
+  4. A Network Security Group (NSG) automatically created during VM setup
+  
+- Saved VM credentials (username/password created during setup)
+
 
 <h2>Installation Steps</h2>
 
