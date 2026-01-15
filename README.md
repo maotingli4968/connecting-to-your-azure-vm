@@ -48,7 +48,13 @@ This tutorial outlines the steps of how to use Remote Desktop to connect to azur
   <img width="975" height="904" alt="image" src="https://github.com/user-attachments/assets/a5c26e75-4e30-400f-915d-122a845e649a" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+  
+- Create Windows Virtual Machine (Basics Tab)
+  -  Next, search for Virtual Machines in the Azure Portal and click Create Virtual Machine.
+  -  Select the Resource Group you just created.
+  -  Give the VM a name like Windows-VM and choose Windows 10 Pro as the image. Make sure you scroll down to confirm the licensing checkbox — this is often forgotten.
+  -  For authentication, create a username (for example, labuser) and a password you will remember . Note these down since you’ll need them later. 
 </p>
 <br />
 
