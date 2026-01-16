@@ -139,6 +139,63 @@ This overview page helps confirm that all your resources are tied together corre
        width="700" />
 </p>
 
+- Networking Verification
+    - To confirm networking, open each VM and scroll down to view its Networking settings.
+    - Check that both Windows-VM and Linux-VM are connected to the windows-VNet  and are assigned to the default subnet.
+    - This ensures that the two VMs are on the same virtual network and can communicate with each other
+
+- Windows-VM
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/1443bf71-94e7-4431-aa58-c97afb2492c6"
+       alt="image"
+       width="700" />
+</p>
+
+- Linux-VM 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/961d1490-bc75-4a4d-ad6d-6f8c3bfb5b9a"
+       alt="image"
+       width="700" />
+</p>
+
+
+- Remote Desktop Connection Client
+    - On your local computer, open the Remote Desktop client.
+    - In Windows, press Win + R, type mstsc, and press Enter.
+    - Copy the Public IP address of your Windows-VM from the Azure Portal and paste it into the Remote Desktop Connection window.
+    - Click Connect
+ 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e7eb5727-b115-4634-a739-057c3980e238"
+       alt="image"
+       width="700" />
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c33f62c0-9654-4d65-be53-8d496435d37d"
+       alt="image"
+       width="700" />
+</p>
+
+- Remote Desktop Login Prompt
+    - When prompted, enter the username and password you created earlier.
+    -  If a certificate warning appears, accept it to proceed.
+    -  This step logs you into the Windows VM using Remote Desktop.
+ 
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/63a639f0-d776-4719-b57a-05a16cb61940"
+       alt="image"
+       width="700" />
+</p>
+
+
+
+
+
+  
+
 
 
 
