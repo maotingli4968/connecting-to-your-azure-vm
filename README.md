@@ -191,6 +191,21 @@ This overview page helps confirm that all your resources are tied together corre
 </p>
 
 
+-  Successful RDP Session
+    - Once connected, you’ll see the desktop of your Windows 10 VM running in Azure.
+    -  From here, you can interact with it just like a local computer.
+    -  This confirms that your setup is correct and that Remote Desktop is working successfully.
+ 
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/abd83f4b-be31-4feb-8b5c-479c2dde6093"
+       alt="image"
+       width="500" />
+</p>
+
+
+
+
+
 
 
 
@@ -203,13 +218,3 @@ This overview page helps confirm that all your resources are tied together corre
 
 
 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
